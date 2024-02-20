@@ -1,0 +1,132 @@
+#container #side-bar {
+    height: 100vh;
+    width: max-content;
+    /* min-width: 200px; */
+    border-right: 1px solid var(--border-color);
+    color: rgba(0, 0, 0, .75);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    font-size: 14px !important;
+    padding: 24px;
+}
+
+#container {
+    /* height: 200vh; */
+    font-size: 14px !important;
+    display: flex;
+    justify-content: right;
+}
+
+#head {
+    height: max-content;
+    border-bottom: 1px solid var(--border-color);
+}
+
+#bar-listed,
+#bar-admin-listed {
+    padding: 8px 0;
+}
+
+#bar-listed .li {
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+#bar-listed .li:hover {
+    background: #f3f3f3;
+}
+
+.color-s {
+    color: rgba(0, 0, 0, .5);
+    /* color: var(--text-secondary); */
+}
+
+.li,
+li {
+    cursor: pointer;
+    width: max-content;
+}
+
+#logout-list {
+    color: maroon;
+}
+
+#head {
+    padding: var(--medium) 24px;
+    /* position: sticky; */
+    top: 0;
+    z-index: 99;
+    background: var(--background);
+}
+
+#input-search {
+    border-radius: 8px;
+    background: #f3f3f3;
+    padding: 8px;
+    gap: 4px;
+}
+
+#input-search input {
+    background: transparent;
+    border: none;
+}
+
+#input-search .material-symbols-outlined {
+    font-size: 20px;
+}
+
+main .card {
+    width: auto;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background: red;
+    border-radius: 12px;
+}
+
+.padding {
+    padding: 24px;
+}
+
+.gap {
+    gap: 24px;
+}
+
+main .card:nth-child(even) {
+    background: #E3F5FF;
+}
+
+main .card:nth-child(odd) {
+    background: #E5ECF6;
+}
+
+main .card-nd {
+    height: 400px;
+    border-radius: 12px;
+    background: #eff4f8;
+}
+
+main .card-nd:nth-child(2) {
+    width: calc((100% / 4) - 18px);
+}
+
+main .card-rd {
+    height: 480px;
+    border-radius: 12px;
+    background: #eff4f8;
+}
+
+footer.padding {
+    padding-top: 0;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+}

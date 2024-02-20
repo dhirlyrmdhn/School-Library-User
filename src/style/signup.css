@@ -1,0 +1,33 @@
+#logo-user {
+    height: 40px;
+    aspect-ratio: 1 / 1;
+    background: linear-gradient(#614fe0, #ff7c5a);
+}
+
+#content-container .content {
+    min-width: 480px;
+}
+
+#content-container,
+#content-container label,
+#content-container span {
+    font-size: 14px;
+}
+
+#content-container .text-title {
+    font-size: 24px;
+}
+
+#content-container #form label {
+    color: rgba(0, 0, 0, .75);
+}
+
+#content-container input {
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .25); 
+}
+
+#content-container .border-line {
+    border-top: 1px solid rgba(0, 0, 0, .25);
+}
